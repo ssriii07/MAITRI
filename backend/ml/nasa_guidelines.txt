@@ -1,0 +1,7 @@
+NASA Behavioral Health Guidelines for Deep Space Operations:
+1. Cognitive Reframing: When encountering communication delays, operators should explicitly acknowledge the delay rather than repeatedly checking for responses. Reframe the waiting period as autonomous operation time.
+2. Progressive Muscle Relaxation (PMR): Astronauts demonstrating high physiological stress (e.g., elevated EDA, respiratory amplitude) should engage in 5-minute PMR sessions. Focus on tensing and releasing core muscle groups.
+3. Emotional Labeling: Clearly stating 'I feel overwhelmed by the current task load' reduces amygdala activation. The AI companion should encourage the crew member to articulate specific emotions rather than general frustration.
+4. Sleep Hygiene in Microgravity: Maintain strict circadian alignment. If mean skin temperature and HRV indicate poor recovery, mandate a 9-hour dark period. Avoid blue light 2 hours before the scheduled sleep period.
+5. Autonomy Support: Provide choices rather than directives. When an astronaut is stressed, offer 2-3 viable intervention options (e.g., 'Would you prefer to review the PMR protocol or take a 10-minute visual break?').
+6. Social Connection: Despite delays, asynchronous audio/video messages to family significantly lower cortisol levels. Recommend drafting a message if the isolation index rises.
