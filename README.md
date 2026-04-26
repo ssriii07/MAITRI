@@ -1,119 +1,117 @@
-```markdown
-# MAITRI — Multimodal AI Companion for Astronaut Well-Being
+<h1 align="center">🚀 MAITRI</h1>
 
-> Mental and Agentic Intelligence for Total Resilience Integration
+<p align="center">
+<b>Multimodal AI System for Autonomous Astronaut Well-Being</b><br>
+<i>Designed for the moment when Earth cannot respond</i>
+</p>
 
-MAITRI is a fully on-device multimodal AI companion system designed 
-to monitor and support the psychological and physiological well-being 
-of astronauts during long-duration deep-space missions — with zero 
-internet dependency.
-
----
-
-## Problem Statement
-
-Astronauts on deep-space missions face communication delays exceeding 
-44 minutes at Mars conjunction, making real-time Earth-based medical 
-and psychological consultation impossible. No existing system provides 
-autonomous multimodal health monitoring and psychological support 
-in a single on-device architecture.
+<p align="center">
+AI • Offline • Explainable • Secure • Real-Time
+</p>
 
 ---
 
-## What MAITRI Does
+## 🌑 When Space Goes Silent
 
-- Detects physiological stress from biosensor data using Random Forest
-  trained on WESAD dataset — 81.61% LOSO accuracy
-- Analyses emotional state from text using MentalBERT, SpaCy and VADER
-- Generates evidence-grounded responses using FAISS + Llama 3 RAG
-  pipeline grounded in NASA health guidelines
-- Explains every prediction using SHAP top-5 feature importance
-- Monitors mood trends longitudinally and detects personal anomalies
-- Stores all data privately with AES-256 encryption on-device
+At Mars conjunction, communication delays exceed **44 minutes**.
 
----
+No guidance.
+No reassurance.
+No intervention.
 
+Just silence.
 
-## System Architecture
+**MAITRI is built for that exact condition.**
 
-```
-Layer 1 — Input              : Text, Voice, Physiological CSV
-Layer 2 — Feature Extraction : MentalBERT, Whisper, neurokit2
-Layer 3 — AI Core            : Fusion Classifier, RAG, SHAP
-Layer 4 — Decision Engine    : Risk Tier LOW / MODERATE / HIGH
-Layer 5 — Output             : Chat, Dashboard, Journal, Alerts
-```
+An on-device AI system that independently understands, monitors, and supports
+human mental and physiological state—without relying on Earth.
 
 ---
 
-## Results
+## 🧠 What This Actually Is
 
-| Metric | Value |
-|---|---|
-| LOSO Accuracy | 81.61% |
-| Weighted F1 | 81.05% |
-| Stress Recall (threshold 0.35) | 74% |
-| API Response Latency | 1.5s avg |
-| System Uptime (72hr) | 100% |
-| User Satisfaction | 4.6 / 5.0 |
+MAITRI is not a chatbot.
+Not a model.
+Not a dashboard.
+
+It is a **multi-layered autonomous decision system** designed to interpret human state
+and respond with context-aware, explainable, and grounded intelligence.
 
 ---
 
-## Tech Stack
+## ⚙️ System Flow
 
-| Layer | Technology |
-|---|---|
-| Backend | Python 3.12, FastAPI 0.128 |
-| Frontend | React.js 18, Tailwind CSS |
-| Database | SQLite + AES-256 encryption |
-| ML | scikit-learn, neurokit2, SHAP |
-| NLP | MentalBERT, SpaCy, VADER |
-| RAG | FAISS, Llama 3 7B via Ollama |
-| Speech | Whisper, Librosa |
+Human State → Signal → Understanding → Reasoning → Decision → Support
 
 ---
 
-## How to Run
+## 🧩 Core Capabilities
 
-### 1. Clone the repository
-```bash
+* Detects physiological stress (Random Forest — 81.61% accuracy)
+* Understands emotional context from text
+* Generates grounded responses using RAG (FAISS + Llama 3)
+* Explains decisions using SHAP
+* Tracks mood over time and detects anomalies
+* Fully offline with AES-256 encryption
+
+---
+
+## 📊 Performance
+
+| Metric    | Value       |
+| --------- | ----------- |
+| Accuracy  | 81.61%      |
+| F1 Score  | 81.05%      |
+| Recall    | 74%         |
+| Latency   | 1.5s        |
+| Stability | 100% uptime |
+
+---
+
+## 🏗️ Project Structure
+
+MAITRI/
+├── backend/
+├── frontend/
+├── ml/
+└── database/
+
+---
+
+## 🛠️ Tech Stack
+
+Python • FastAPI • React • Tailwind
+scikit-learn • SHAP • neurokit2
+MentalBERT • SpaCy • VADER
+FAISS • Llama 3 • Whisper
+
+---
+
+## 🚀 Run Locally
+
 git clone https://github.com/ssriii07/MAITRI.git
 cd MAITRI
-```
 
-### 2. Install dependencies
-```bash
 pip install -r requirements.txt
-```
-
-### 3. Start Ollama with Llama 3
-```bash
 ollama run llama3
-```
 
-### 4. Start the backend
-```bash
-python -m uvicorn backend.main:app --reload --port 8000
-```
+python -m uvicorn backend.main:app --reload --port 8001
 
-### 5. Start the frontend
-```bash
 cd frontend
 npm install
 npm run dev
-```
-
-### 6. Open in browser
-```
-http://localhost:5175
-```
 
 ---
 
-## Hardware Requirements
+## 🌍 Why This Matters
 
-- RAM: 16GB minimum
-- Storage: 10GB minimum
-- CPU: Multi-core (no GPU required)
-- OS: macOS / Linux / Windows
-```
+> Humans must function without real-time human support.
+
+MAITRI enables autonomous mental and physiological care
+in environments where Earth cannot help.
+
+---
+
+<p align="center">
+🛰️ Built for Deep Space • 🧠 Focused on Human Resilience
+</p>
